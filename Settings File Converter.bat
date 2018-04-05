@@ -2,7 +2,7 @@
 cd C:\mainstar\api\MSAPI
 ::echo off
 
-::setlocal enabledelayedexpansion
+setlocal enabledelayedexpansion
 set INTEXTFILE=settings.json
 set OUTTEXTFILE=settingsCHANGED.json
 

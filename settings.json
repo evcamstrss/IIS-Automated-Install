@@ -1,0 +1,12 @@
+{
+  "imagesFolder": "C:\\Mainstar\\Images",
+  "logsFolder": "C:\\Mainstar\\api\\logs",
+  "connectorLocation": "C:\\Mainstar\\MSPrintLabel.exe",
+  "logLevel": "trace",
+  "database": {
+    "user": "b7qxaccountb7qx",
+    "pass": "b7qxpasswordb7qx",
+    "name": "b7qxdatabasenameb7qx",
+    "server": "b7qxinstanceb7qx"
+  }
+}

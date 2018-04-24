@@ -11,7 +11,7 @@ set OUTTEXTFILE=settingsCHANGED.json
 
 
 
-set /P varuser="Please enter the account name: "
+set /P varuser="Please enter the SA account or the username for Windows: "
 
 set SEARCHTEXT=b7qxaccountb7qx
 set REPLACETEXT=%varuser%
@@ -51,7 +51,7 @@ rename %OUTTEXTFILE% %INTEXTFILE%
 
 
 
-set /P vardatabase="Please enter the name of the SQL instance [probably SQLEXPRESS2016]: "
+set /P vardatabase="Please enter the database name: "
 
 set SEARCHTEXT=b7qxdatabasenameb7qx
 set REPLACETEXT=%vardatabase%
@@ -71,7 +71,7 @@ rename %OUTTEXTFILE% %INTEXTFILE%
 
 
 
-set /P varpcname="Please enter the PC name: "
+set /P varpcname="Please enter the PC name\SQL instance (with two backslashes): "
 
 set SEARCHTEXT=b7qxinstanceb7qx
 set REPLACETEXT=%varpcname%
